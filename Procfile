@@ -1,2 +1,1 @@
-web: chainlit run main.pyd:
-dd
+web: chainlit run main.py --host 0.0.0.0 --port $PORT
